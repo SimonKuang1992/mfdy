@@ -11,7 +11,6 @@
 		DEE420961F7DDAF900479A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE420951F7DDAF900479A44 /* ViewController.swift */; };
 		DEE420991F7DDAF900479A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE420971F7DDAF900479A44 /* Main.storyboard */; };
 		DEE4209B1F7DDAF900479A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE4209A1F7DDAF900479A44 /* Assets.xcassets */; };
-		DEE4209E1F7DDAF900479A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE4209C1F7DDAF900479A44 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		DEE420951F7DDAF900479A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DEE420981F7DDAF900479A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEE4209A1F7DDAF900479A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEE4209D1F7DDAF900479A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEE4209F1F7DDAF900479A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				DEE420951F7DDAF900479A44 /* ViewController.swift */,
 				DEE420971F7DDAF900479A44 /* Main.storyboard */,
 				DEE4209A1F7DDAF900479A44 /* Assets.xcassets */,
-				DEE4209C1F7DDAF900479A44 /* LaunchScreen.storyboard */,
 				DEE4209F1F7DDAF900479A44 /* Info.plist */,
 			);
 			path = MFDY;
@@ -123,7 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE4209E1F7DDAF900479A44 /* LaunchScreen.storyboard in Resources */,
 				DEE4209B1F7DDAF900479A44 /* Assets.xcassets in Resources */,
 				DEE420991F7DDAF900479A44 /* Main.storyboard in Resources */,
 			);
@@ -150,14 +146,6 @@
 				DEE420981F7DDAF900479A44 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DEE4209C1F7DDAF900479A44 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEE4209D1F7DDAF900479A44 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,14 +262,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BX7JL8KH5T;
 				INFOPLIST_FILE = MFDY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bizconf.MFDY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,14 +279,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BX7JL8KH5T;
 				INFOPLIST_FILE = MFDY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bizconf.MFDY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
