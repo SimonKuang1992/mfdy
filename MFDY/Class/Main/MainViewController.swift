@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  MFDY
 //
 //  Created by bizconf on 2017/9/29.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UITabBarController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    }
-}
 
+    }
+
+}
